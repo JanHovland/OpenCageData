@@ -1,0 +1,96 @@
+/* No comment provided by engineer. */
+"body_of_water" = "Kropp av vann";
+
+/* No comment provided by engineer. */
+"boundary_stone" = "Grensestein";
+
+/* No comment provided by engineer. */
+"building" = "Bygning";
+
+/* No comment provided by engineer. */
+"city" = "By";
+
+/* No comment provided by engineer. */
+"continent" = "Kontinent";
+
+/* No comment provided by engineer. */
+"country" = "Land";
+
+/* No comment provided by engineer. */
+"county" = "Fylke";
+
+/* No comment provided by engineer. */
+"craft" = "Håndverk";
+
+/* No comment provided by engineer. */
+"Detail view" = "Detaljert oversikt";
+
+/* No comment provided by engineer. */
+"farm" = "Gård";
+
+/* No comment provided by engineer. */
+"fictitious" = "Fiktiv";
+
+/* No comment provided by engineer. */
+"hamlet" = "Grend";
+
+/* No comment provided by engineer. */
+"hotel" = "Hotel";
+
+/* No comment provided by engineer. */
+"island" = "Øy";
+
+/* No comment provided by engineer. */
+"Key for OpenCage" = "Nøkkel til OpenCage";
+
+/* No comment provided by engineer. */
+"neighbourhood" = "Nabolag";
+
+/* No comment provided by engineer. */
+"Not able to find geo Data!" = "Kan ikke finne geo data!";
+
+/* No comment provided by engineer. */
+"partial_postcode" = "Delvist postnummer";
+
+/* No comment provided by engineer. */
+"place_of_worship" = "Sted for tilbedelse";
+
+/* No comment provided by engineer. */
+"postal_city" = "Post by";
+
+/* No comment provided by engineer. */
+"postcode" = "Postnummer";
+
+/* No comment provided by engineer. */
+"railway" = "Jernbane";
+
+/* No comment provided by engineer. */
+"region" = "Region";
+
+/* No comment provided by engineer. */
+"road" = "Vei";
+
+/* No comment provided by engineer. */
+"Settings" = "Innstillinger";
+
+/* No comment provided by engineer. */
+"state" = "Stat";
+
+/* No comment provided by engineer. */
+"state_district" = "Stat distrikt";
+
+/* No comment provided by engineer. */
+"terminated_postcode" = "Avsluttet postnummer";
+
+/* No comment provided by engineer. */
+"unknown" = "Ukjent";
+
+/* No comment provided by engineer. */
+"Url for OpenCage" = "Url kopling mot OpenCage";
+
+/* No comment provided by engineer. */
+"village" = "Landsby";
+
+/* No comment provided by engineer. */
+"waterway" = "Vannvei";
+

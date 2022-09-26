@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB012EB628CC8CC50000614E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB012EB428CC8CC50000614E /* Localizable.strings */; };
+		DB13949128E0A51900FD54B9 /* GeoRecordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13949028E0A51900FD54B9 /* GeoRecordDetailView.swift */; };
+		DB2A944B28D470A000EB45AC /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A944A28D470A000EB45AC /* SettingView.swift */; };
+		DB60784F28D5B3C4000769F7 /* GeoRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB60784E28D5B3C4000769F7 /* GeoRecordView.swift */; };
 		DB8430D328C2605300D32D10 /* OpenCageDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8430D228C2605300D32D10 /* OpenCageDataApp.swift */; };
-		DB8430D528C2605300D32D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8430D428C2605300D32D10 /* ContentView.swift */; };
+		DB8430D528C2605300D32D10 /* OpenCageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8430D428C2605300D32D10 /* OpenCageData.swift */; };
 		DB8430D728C2605400D32D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8430D628C2605400D32D10 /* Assets.xcassets */; };
 		DB8430DB28C2605400D32D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8430DA28C2605400D32D10 /* Preview Assets.xcassets */; };
+		DB8430E228C260A800D32D10 /* OpenCage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8430E128C260A800D32D10 /* OpenCage.swift */; };
+		DBAC095B28CB40B3004A9450 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAC095A28CB40B3004A9450 /* GeoLocation.swift */; };
+		DBAC095E28CB41D9004A9450 /* GeoRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAC095D28CB41D9004A9450 /* GeoRecord.swift */; };
+		DBAC096128CB8F6F004A9450 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAC096028CB8F6F004A9450 /* UserSetting.swift */; };
+		DBF97E8A28E1C2CF0023EFAE /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF97E8928E1C2CF0023EFAE /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB012EB528CC8CC50000614E /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DB13949028E0A51900FD54B9 /* GeoRecordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRecordDetailView.swift; sourceTree = "<group>"; };
+		DB2A944A28D470A000EB45AC /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		DB60784E28D5B3C4000769F7 /* GeoRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRecordView.swift; sourceTree = "<group>"; };
 		DB8430CF28C2605300D32D10 /* OpenCageData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCageData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8430D228C2605300D32D10 /* OpenCageDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCageDataApp.swift; sourceTree = "<group>"; };
-		DB8430D428C2605300D32D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB8430D428C2605300D32D10 /* OpenCageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCageData.swift; sourceTree = "<group>"; };
 		DB8430D628C2605400D32D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8430D828C2605400D32D10 /* OpenCageData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenCageData.entitlements; sourceTree = "<group>"; };
 		DB8430DA28C2605400D32D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB8430E128C260A800D32D10 /* OpenCage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCage.swift; sourceTree = "<group>"; };
+		DBAC095A28CB40B3004A9450 /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		DBAC095D28CB41D9004A9450 /* GeoRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRecord.swift; sourceTree = "<group>"; };
+		DBAC096028CB8F6F004A9450 /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		DBF97E8928E1C2CF0023EFAE /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB2ED09E28E0C53D00959374 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB60784E28D5B3C4000769F7 /* GeoRecordView.swift */,
+				DB13949028E0A51900FD54B9 /* GeoRecordDetailView.swift */,
+				DB8430D428C2605300D32D10 /* OpenCageData.swift */,
+				DB2A944A28D470A000EB45AC /* SettingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB2ED09F28E0C5BC00959374 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DBF97E8928E1C2CF0023EFAE /* ActivityIndicator.swift */,
+				DBAC096028CB8F6F004A9450 /* UserSetting.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		DB8430C628C2605300D32D10 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +90,13 @@
 		DB8430D128C2605300D32D10 /* OpenCageData */ = {
 			isa = PBXGroup;
 			children = (
-				DB8430D228C2605300D32D10 /* OpenCageDataApp.swift */,
-				DB8430D428C2605300D32D10 /* ContentView.swift */,
 				DB8430D628C2605400D32D10 /* Assets.xcassets */,
+				DB012EB428CC8CC50000614E /* Localizable.strings */,
+				DB8430D228C2605300D32D10 /* OpenCageDataApp.swift */,
+				DBAC095F28CB4218004A9450 /* Geo */,
+				DBAC095C28CB41AB004A9450 /* Model */,
+				DB2ED09F28E0C5BC00959374 /* Utilities */,
+				DB2ED09E28E0C53D00959374 /* Views */,
 				DB8430D828C2605400D32D10 /* OpenCageData.entitlements */,
 				DB8430D928C2605400D32D10 /* Preview Content */,
 			);
@@ -67,6 +109,23 @@
 				DB8430DA28C2605400D32D10 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBAC095C28CB41AB004A9450 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB8430E128C260A800D32D10 /* OpenCage.swift */,
+				DBAC095D28CB41D9004A9450 /* GeoRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBAC095F28CB4218004A9450 /* Geo */ = {
+			isa = PBXGroup;
+			children = (
+				DBAC095A28CB40B3004A9450 /* GeoLocation.swift */,
+			);
+			path = Geo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,7 +156,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					DB8430CE28C2605300D32D10 = {
 						CreatedOnToolsVersion = 14.0;
@@ -111,6 +170,7 @@
 			knownRegions = (
 				en,
 				Base,
+				nb,
 			);
 			mainGroup = DB8430C628C2605300D32D10;
 			productRefGroup = DB8430D028C2605300D32D10 /* Products */;
@@ -128,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB8430DB28C2605400D32D10 /* Preview Assets.xcassets in Resources */,
+				DB012EB628CC8CC50000614E /* Localizable.strings in Resources */,
 				DB8430D728C2605400D32D10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,18 +200,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8430D528C2605300D32D10 /* ContentView.swift in Sources */,
+				DBAC095E28CB41D9004A9450 /* GeoRecord.swift in Sources */,
+				DB13949128E0A51900FD54B9 /* GeoRecordDetailView.swift in Sources */,
+				DBAC095B28CB40B3004A9450 /* GeoLocation.swift in Sources */,
+				DB8430E228C260A800D32D10 /* OpenCage.swift in Sources */,
+				DB2A944B28D470A000EB45AC /* SettingView.swift in Sources */,
+				DB60784F28D5B3C4000769F7 /* GeoRecordView.swift in Sources */,
+				DBF97E8A28E1C2CF0023EFAE /* ActivityIndicator.swift in Sources */,
+				DBAC096128CB8F6F004A9450 /* UserSetting.swift in Sources */,
+				DB8430D528C2605300D32D10 /* OpenCageData.swift in Sources */,
 				DB8430D328C2605300D32D10 /* OpenCageDataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		DB012EB428CC8CC50000614E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB012EB528CC8CC50000614E /* nb */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		DB8430DC28C2605400D32D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -180,6 +261,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -209,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -238,6 +321,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -262,8 +346,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OpenCageData/OpenCageData.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenCageData/Preview Content\"";
 				DEVELOPMENT_TEAM = 6UR9TA6744;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -300,8 +387,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OpenCageData/OpenCageData.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenCageData/Preview Content\"";
 				DEVELOPMENT_TEAM = 6UR9TA6744;
 				ENABLE_HARDENED_RUNTIME = YES;
