@@ -109,7 +109,8 @@ struct OpenCageView: View {
             let key = UserDefaults.standard.object(forKey: "KeyOpenCage") as? String ?? ""
             let urlOpenCage = UserDefaults.standard.object(forKey: "UrlOpenCage") as? String ?? ""
             indicatorShowing = true
-            geoRecords = await getForwardGeoCode(place: place, key: key, urlOpenCage: urlOpenCage)
+//            geoRecords = await getForwardGeoCode(place: place, key: key, urlOpenCage: urlOpenCage)
+            geoRecords = await GetReverseGeoCode(latitude: 58.61751097043092, longitude: 5.6450528933490896, key: key, urlOpenCage: urlOpenCage)
             indicatorShowing = false
         }
         .navigationTitle("OpenCage")

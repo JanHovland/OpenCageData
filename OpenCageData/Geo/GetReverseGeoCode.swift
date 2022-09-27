@@ -9,13 +9,13 @@ import Foundation
 
 func GetReverseGeoCode(latitude: Double, longitude: Double, key: String, urlOpenCage: String) async -> ([GeoRecord]) {
     
-//    var openCage = OpenCage()
+    var openCage = OpenCage()
     var geoRecords = [GeoRecord]()
     
     let lat = "\(latitude)"
     let lon = "\(longitude)"
 
-    let url = URL(string: urlOpenCage + lat + lon + "&key=" + key)
+    let url = URL(string: urlOpenCage + "+" + lat + "+" + lon + "&key=" + key)
     print(url as Any)
     let urlSession = URLSession.shared
     
