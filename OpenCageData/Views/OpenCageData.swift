@@ -105,11 +105,11 @@ struct OpenCageView: View {
         .padding()
         .task {
 //            let city = formatCity(city: "Münich") // "Greenwich-observatoriet")
-            let city = "Münich" // "Greenwich-observatoriet")
+            let place = "Münich" // "Greenwich-observatoriet")
             let key = UserDefaults.standard.object(forKey: "KeyOpenCage") as? String ?? ""
             let urlOpenCage = UserDefaults.standard.object(forKey: "UrlOpenCage") as? String ?? ""
             indicatorShowing = true
-            geoRecords = await getGeoCode(city: city, key: key, urlOpenCage: urlOpenCage)
+            geoRecords = await getForwardGeoCode(place: place, key: key, urlOpenCage: urlOpenCage)
             indicatorShowing = false
         }
         .navigationTitle("OpenCage")

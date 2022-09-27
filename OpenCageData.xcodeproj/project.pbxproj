@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB012EB628CC8CC50000614E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB012EB428CC8CC50000614E /* Localizable.strings */; };
 		DB13949128E0A51900FD54B9 /* GeoRecordDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13949028E0A51900FD54B9 /* GeoRecordDetailView.swift */; };
+		DB13AD4428E3698F00C910E3 /* FormatPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13AD4328E3698F00C910E3 /* FormatPlace.swift */; };
 		DB2A944B28D470A000EB45AC /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A944A28D470A000EB45AC /* SettingView.swift */; };
 		DB60784F28D5B3C4000769F7 /* GeoRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB60784E28D5B3C4000769F7 /* GeoRecordView.swift */; };
 		DB8430D328C2605300D32D10 /* OpenCageDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8430D228C2605300D32D10 /* OpenCageDataApp.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		DB012EB528CC8CC50000614E /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DB13949028E0A51900FD54B9 /* GeoRecordDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRecordDetailView.swift; sourceTree = "<group>"; };
+		DB13AD4328E3698F00C910E3 /* FormatPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatPlace.swift; sourceTree = "<group>"; };
 		DB2A944A28D470A000EB45AC /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		DB60784E28D5B3C4000769F7 /* GeoRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRecordView.swift; sourceTree = "<group>"; };
 		DB8430CF28C2605300D32D10 /* OpenCageData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCageData.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 			children = (
 				DBF97E8928E1C2CF0023EFAE /* ActivityIndicator.swift */,
 				DBAC096028CB8F6F004A9450 /* UserSetting.swift */,
+				DB13AD4328E3698F00C910E3 /* FormatPlace.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				DBAC095E28CB41D9004A9450 /* GeoRecord.swift in Sources */,
 				DB13949128E0A51900FD54B9 /* GeoRecordDetailView.swift in Sources */,
+				DB13AD4428E3698F00C910E3 /* FormatPlace.swift in Sources */,
 				DBAC095B28CB40B3004A9450 /* GeoLocation.swift in Sources */,
 				DB8430E228C260A800D32D10 /* OpenCage.swift in Sources */,
 				DB2A944B28D470A000EB45AC /* SettingView.swift in Sources */,

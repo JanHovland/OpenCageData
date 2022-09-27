@@ -20,9 +20,17 @@ struct Result: Decodable {
 
 struct Components: Decodable {
     var type : String?
+    var country: String?
+    var county: String?
+    var postalCity: String?
+    var village: String?
 
     enum CodingKeys: String, CodingKey {
         case type = "_type"
+        case country
+        case county
+        case postalCity = "postal_city"
+        case village
     }
 }
 
