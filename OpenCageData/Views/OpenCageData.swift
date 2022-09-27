@@ -104,13 +104,23 @@ struct OpenCageView: View {
         }
         .padding()
         .task {
-//            let city = formatCity(city: "Münich") // "Greenwich-observatoriet")
-            let place = "Münich" // "Greenwich-observatoriet")
+            let place = "Nærbø" // "Greenwich-observatoriet")
             let key = UserDefaults.standard.object(forKey: "KeyOpenCage") as? String ?? ""
             let urlOpenCage = UserDefaults.standard.object(forKey: "UrlOpenCage") as? String ?? ""
             indicatorShowing = true
 //            geoRecords = await getForwardGeoCode(place: place, key: key, urlOpenCage: urlOpenCage)
-            geoRecords = await GetReverseGeoCode(latitude: 58.61751097043092, longitude: 5.6450528933490896, key: key, urlOpenCage: urlOpenCage)
+            
+            
+//            /// Varhaug:
+//
+//            let lat = 58.61751097043092
+//            let lon =  5.6450528933490896
+            
+            /// Nærbø
+            let lat = 58.666471
+            let lon =  5.639316
+
+            geoRecords = await GetReverseGeoCode(latitude: lat, longitude: lon, key: key, urlOpenCage: urlOpenCage)
             indicatorShowing = false
         }
         .navigationTitle("OpenCage")

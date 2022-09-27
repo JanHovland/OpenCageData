@@ -70,8 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				DBF97E8928E1C2CF0023EFAE /* ActivityIndicator.swift */,
-				DBAC096028CB8F6F004A9450 /* UserSetting.swift */,
 				DB13AD4328E3698F00C910E3 /* FormatPlace.swift */,
+				DBAC096028CB8F6F004A9450 /* UserSetting.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
