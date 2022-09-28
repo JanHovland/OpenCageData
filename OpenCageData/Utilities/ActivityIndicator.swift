@@ -10,6 +10,8 @@ import SwiftUI
 /// https://medium.com/swiftui-made-easy/activity-view-controller-in-swiftui-593fddadee79
 /// https://www.hackingwithswift.com/articles/118/uiactivityviewcontroller-by-example
 
+#if os(iOS)
+
 struct ActivityIndicator: UIViewRepresentable {
     
     /// Plasser ActivityIndicator(isAnimating: $indicatorShowing, style: .medium, color: .gray)
@@ -45,4 +47,4 @@ struct ActivityView: UIViewControllerRepresentable {
                                 context: UIViewControllerRepresentableContext<ActivityView>) {}
 }
 
-
+#endif

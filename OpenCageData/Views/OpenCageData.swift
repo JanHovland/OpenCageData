@@ -99,12 +99,12 @@ struct OpenCageView: View {
     
     var body: some View {
         VStack {
-            ActivityIndicator(isAnimating: $indicatorShowing, style: .medium, color: .gray)
+//            ActivityIndicator(isAnimating: $indicatorShowing, style: .medium, color: .gray)
             GeoRecordView(geoRecords: geoRecords, lonLat: false)
         }
         .padding()
         .task {
-            let place = "Nærbø" // "Greenwich-observatoriet")
+//            let place = "Nærbø" // "Greenwich-observatoriet")
             let key = UserDefaults.standard.object(forKey: "KeyOpenCage") as? String ?? ""
             let urlOpenCage = UserDefaults.standard.object(forKey: "UrlOpenCage") as? String ?? ""
             indicatorShowing = true

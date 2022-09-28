@@ -12,6 +12,7 @@
 		DB13AD4428E3698F00C910E3 /* FormatPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13AD4328E3698F00C910E3 /* FormatPlace.swift */; };
 		DB13AD4628E36B2400C910E3 /* GetReverseGeoCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13AD4528E36B2400C910E3 /* GetReverseGeoCode.swift */; };
 		DB2A944B28D470A000EB45AC /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2A944A28D470A000EB45AC /* SettingView.swift */; };
+		DB51164028E43D5200DEB1BF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB51163F28E43D5200DEB1BF /* LocationManager.swift */; };
 		DB60784F28D5B3C4000769F7 /* GeoRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB60784E28D5B3C4000769F7 /* GeoRecordView.swift */; };
 		DB8430D328C2605300D32D10 /* OpenCageDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8430D228C2605300D32D10 /* OpenCageDataApp.swift */; };
 		DB8430D528C2605300D32D10 /* OpenCageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8430D428C2605300D32D10 /* OpenCageData.swift */; };
@@ -30,6 +31,7 @@
 		DB13AD4328E3698F00C910E3 /* FormatPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatPlace.swift; sourceTree = "<group>"; };
 		DB13AD4528E36B2400C910E3 /* GetReverseGeoCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReverseGeoCode.swift; sourceTree = "<group>"; };
 		DB2A944A28D470A000EB45AC /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		DB51163F28E43D5200DEB1BF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DB60784E28D5B3C4000769F7 /* GeoRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoRecordView.swift; sourceTree = "<group>"; };
 		DB8430CF28C2605300D32D10 /* OpenCageData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCageData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8430D228C2605300D32D10 /* OpenCageDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCageDataApp.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				DBF97E8928E1C2CF0023EFAE /* ActivityIndicator.swift */,
 				DB13AD4328E3698F00C910E3 /* FormatPlace.swift */,
 				DBAC096028CB8F6F004A9450 /* UserSetting.swift */,
+				DB51163F28E43D5200DEB1BF /* LocationManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				DBAC096128CB8F6F004A9450 /* UserSetting.swift in Sources */,
 				DB8430D528C2605300D32D10 /* OpenCageData.swift in Sources */,
 				DB8430D328C2605300D32D10 /* OpenCageDataApp.swift in Sources */,
+				DB51164028E43D5200DEB1BF /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

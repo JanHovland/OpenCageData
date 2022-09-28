@@ -69,11 +69,6 @@ func GetReverseGeoCode(latitude: Double, longitude: Double, key: String, urlOpen
             }
 
             print("Village = \(geoRecord.village)")
-
-
-            
-            
-            
             
             geoRecords.append(geoRecord)
         }
